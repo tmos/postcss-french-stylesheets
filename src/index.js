@@ -19,9 +19,14 @@ export default postcss.plugin('postcss-french-stylesheets', (opts) => {
       /**
        * Convert Values
        */
-      Object.keys(values).forEach((value) => {
-        decl.value = decl.value.replace(values[value], value)
-      })
+      decl.value = decl.value.split(' ')
+        .map(x => x.trim())
+        .map(val => Object.keys(values).reduce(
+          (v, value) => (v === values[value] ? value : v),
+        val)).join(' ')
+      // Object.keys(values).forEach((value) => {
+      //   decl.value = decl.value.replace(`/\b${values[value]}$/`, value)
+      // })
 
       /**
        * Convert "!wichtig"
