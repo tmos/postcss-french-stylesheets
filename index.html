@@ -1,0 +1,78 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <section id="main_content">
+            <h1>PostCSS French Style Sheets</h1>
+            <p><a href="https://github.com/postcss/postcss">PostCSS</a> plugin for writing French Style Sheets.</p>
+            <p>Take CSS to the next level and write your CSS in French!</p>
+            <h2 id="installation">Installation</h2>
+            <pre>
+              <code>
+                  npm install postcss-french-stylesheets
+              </code>
+            </pre>
+
+            <h2 id="usage">Usage</h2>
+            <pre>
+              <code>
+                // ES5
+                var frenchStyleSheets = require('postcss-french-stylesheets')
+
+                // ES6
+                import frenchStyleSheets from 'postcss-french-stylesheets'
+              </code>
+            </pre>
+
+            <p>See <a href="https://github.com/postcss/postcss#usage">PostCSS#Usage</a> for usage for your environment.</p>
+
+            <h2 id="example">Example</h2>
+            <p>Using this <code>input.css</code>:</p>
+            <pre>
+              <code>
+                .fou {
+                  hauteur: 300px;
+                  marges-du-bas: 10px;
+                  taille-de-la-police: 20px !prioritaire;
+                  couleur-du-fond: aiguemarine;
+                  couleur: blanc;
+                }
+              </code>
+            </pre>
+
+            <p>you will get:</p>
+            <pre>
+              <code>
+                .fou {
+                    height: 300px;
+                    margin-bottom: 10px;
+                    font-size: 20px !important;
+                    background-color: black;
+                    color: white;
+                }
+              </code>
+            </pre>
+
+            <h2 id="documentation">Documentation</h2>
+            <ul>
+                <li><a href="https://github.com/tmos/postcss-french-stylesheets/blob/master/docs/Properties.md">Properties</a></li>
+                <li><a href="https://github.com/tmos/postcss-french-stylesheets/blob/master/docs/Values.md">Values</a></li>
+            </ul>
+
+            <h2 id="contributing">Contributing</h2>
+            <p><code>postcss-french-stylesheets</code> has only a subset of CSS and needs your help to add more French properties and values.</p>
+
+            <h2 id="changelog">Changelog</h2>
+            <p>See <a href="https://github.com/timche/postcss-french-stylesheets/blob/master/CHANGELOG.md">CHANGELOG.md</a>.</p>
+
+            <h2 id="license">License</h2>
+            <p>See <a href="https://github.com/timche/postcss-french-stylesheets/blob/master/LICENSE">LICENSE</a>.</p>
+
+        </section>
+    </body>
+</html>
