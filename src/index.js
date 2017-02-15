@@ -2,9 +2,7 @@ import postcss from 'postcss'
 import properties from './properties'
 import values from './values'
 
-export default postcss.plugin('postcss-french-stylesheets', (opts) => {
-  opts = opts || {}
-
+export default postcss.plugin('postcss-french-stylesheets', () => {
   return (css) => {
     css.walkDecls((decl) => {
       /**
