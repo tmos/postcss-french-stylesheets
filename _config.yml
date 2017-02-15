@@ -1,0 +1,8 @@
+title: PostCSS French Style Sheets
+description: PostCSS plugin for writing French Style Sheets
+google_analytics: UA-76831203-1
+show_downloads: true
+theme: jekyll-theme-merlot
+
+gems:
+  - jekyll-mentions
