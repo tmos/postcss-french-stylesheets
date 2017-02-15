@@ -5,7 +5,7 @@
 
 > [PostCSS](https://github.com/postcss/postcss) plugin for writing French Style Sheets.
 
-Take CSS to the next level and write your CSS in French!
+Take CSS to the next level and write your CSS « à la française » 🇫🇷 !
 
 ## Installation
 
@@ -65,5 +65,7 @@ you will get:
 See [CHANGELOG.md](https://github.com/timche/postcss-french-stylesheets/blob/master/CHANGELOG.md).
 
 ## License
+
+postCSS French CSS is based on the [postCSS German CSS]https://github.com/timche/postcss-german-stylesheets) plugin. Danke to them for the base architecture !
 
 See [LICENSE](https://github.com/timche/postcss-french-stylesheets/blob/master/LICENSE).
