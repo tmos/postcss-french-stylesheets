@@ -26,8 +26,8 @@ export default postcss.plugin('postcss-french-stylesheets', (opts) => {
       /**
        * Convert "!wichtig"
        */
-      if (decl.value.indexOf('!wichtig') >= 0) {
-        decl.value = decl.value.replace(/\s*!wichtig\s*/, '')
+      if (decl.value.indexOf('!prioritaire') >= 0) {
+        decl.value = decl.value.replace(/\s*!prioritaire\s*/, '')
         decl.important = true
       }
     })

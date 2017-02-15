@@ -9,7 +9,7 @@
     "build:docs": "babel-node scripts/docs",
     "lint": "eslint src",
     "test": "mocha --compilers js:babel-register",
-    "prepublish": "npm run clean && npm run lint && npm run test && npm run build && npm run build:docs"
+    "prepublishOnly": "npm run clean && npm run lint && npm run test && npm run build && npm run build:docs"
   },
   "files": [
     "lib/*.js"
