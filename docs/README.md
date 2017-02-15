@@ -46,7 +46,7 @@ you will get:
     height: 300px;
     margin-bottom: 10px;
     font-size: 20px !important;
-    background-color: aquamarine;
+    background-color: black;
     color: white;
 }
 ```
