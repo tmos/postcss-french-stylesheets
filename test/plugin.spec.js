@@ -16,10 +16,10 @@ function run(input, output, opts, done) {
     })
 }
 
-function propertyTest(german, english, value = 'german') {
-  it(`converts ${german} to ${english}`, (done) => {
+function propertyTest(french, english, value = 'french') {
+  it(`converts ${french} to ${english}`, (done) => {
     run(
-      `a{ ${german}: ${value}; }`,
+      `a{ ${french}: ${value}; }`,
       `a{ ${english}: ${value}; }`,
       {},
       done
@@ -27,10 +27,10 @@ function propertyTest(german, english, value = 'german') {
   })
 }
 
-function valueTest(german, english, property = 'german') {
-  it(`converts ${german} to ${english}`, (done) => {
+function valueTest(french, english, property = 'french') {
+  it(`converts ${french} to ${english}`, (done) => {
     run(
-      `a{ ${property}: ${german}; }`,
+      `a{ ${property}: ${french}; }`,
       `a{ ${property}: ${english}; }`,
       {},
       done
@@ -38,7 +38,7 @@ function valueTest(german, english, property = 'german') {
   })
 }
 
-describe('postcss-german-stylesheets', () => {
+describe('postcss-french-stylesheets', () => {
   // Test Properties
   Object.keys(properties).forEach((property) => propertyTest(properties[property], property))
 

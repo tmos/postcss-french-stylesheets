@@ -2,7 +2,7 @@ import postcss from 'postcss'
 import properties from './properties'
 import values from './values'
 
-export default postcss.plugin('postcss-german-stylesheets', (opts) => {
+export default postcss.plugin('postcss-french-stylesheets', (opts) => {
   opts = opts || {}
 
   return (css) => {
