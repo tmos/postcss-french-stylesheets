@@ -1,0 +1,29 @@
+{
+  "name": "postcss-french-website",
+  "version": "0.0.1",
+  "description": "The website of postCSS-french-css plugin",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmos/postcss-french-stylesheets.git"
+  },
+  "author": "Tom Canac <contact@tomcanac.com> (http://tomcanac.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmos/postcss-french-stylesheets/issues"
+  },
+  "homepage": "https://github.com/tmos/postcss-french-stylesheets#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "browser-sync": "^2.12.3",
+    "cssnano": "^3.7.3",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "postcss-french-stylesheets": "^1.0.1"
+  }
+}
