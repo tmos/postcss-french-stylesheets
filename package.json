@@ -1,7 +1,7 @@
 {
-  "name": "postcss-german-stylesheets",
+  "name": "postcss-french-stylesheets",
   "version": "1.0.1",
-  "description": "PostCSS plugin for writing German Stylesheets",
+  "description": "PostCSS plugin for writing French Stylesheets",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf docs index.js",
@@ -19,18 +19,18 @@
     "postcss-plugin",
     "css",
     "stylesheet",
-    "german"
+    "french"
   ],
-  "author": "Tim Cheung <tim@cheung.io> (https://github.com/timche)",
+  "author": "Tom Canac <contact@tomcanac.com> (https://github.com/tmos)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/timche/postcss-german-stylesheets.git"
+    "url": "https://github.com/tmos/postcss-french-stylesheets.git"
   },
   "bugs": {
-    "url": "https://github.com/timche/postcss-german-stylesheets/issues"
+    "url": "https://github.com/tmos/postcss-french-stylesheets/issues"
   },
-  "homepage": "http://timche.github.io/postcss-german-stylesheets",
+  "homepage": "http://tmos.github.io/postcss-french-stylesheets",
   "dependencies": {
     "postcss": "^5.0.19"
   },
