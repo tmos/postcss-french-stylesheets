@@ -27,7 +27,7 @@ export default postcss.plugin('postcss-french-stylesheets', () => {
       // })
 
       /**
-       * Convert "!wichtig"
+       * Convert "!prioritaire"
        */
       if (decl.value.indexOf('!prioritaire') >= 0) {
         decl.value = decl.value.replace(/\s*!prioritaire\s*/, '')
