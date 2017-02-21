@@ -1,6 +1,6 @@
 {
   "name": "postcss-french-stylesheets",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "PostCSS plugin for writing French Stylesheets",
   "main": "lib/index.js",
   "scripts": {
